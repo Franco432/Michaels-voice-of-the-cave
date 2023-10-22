@@ -1,5 +1,7 @@
 from sources.escenas import *
 
+path_menu = path + 'menu/'
+
 # Definir el menú de inicio
 class menu_inicio():
 	def __init__(self, juego) -> None:
@@ -7,10 +9,10 @@ class menu_inicio():
 		# Crear grupo que contendrá sus imágenes
 		self.grupo = Group()
 		# Añadir el fondo para que lo dibuje
-		self.grupo.add(imagen(path+'images/menu/fondo.jpg', 0, 0, 1280, 720))
+		self.grupo.add(imagen(path_menu+'images/fondo.jpg', 0, 0, 1280, 720))
 		# Añadir botones
-		self.botones = {'quit':buton(path+'images/menu/quit.png', 400, 400, 300, 150),
-						'play':buton(path+'images/menu/play.png', 400, 200, 300, 150),}
+		self.botones = {'quit':buton(path_menu+'images/quit.png', 400, 400, 300, 150),
+						'play':buton(path_menu+'images/play.png', 400, 200, 300, 150),}
 		# Añadir los sprites de los botones
 		for boton in self.botones: self.grupo.add(self.botones[boton])
 

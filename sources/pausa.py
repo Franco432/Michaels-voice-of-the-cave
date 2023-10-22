@@ -1,15 +1,17 @@
 from sources.escenas import *
 
+path_pausa = path + 'pausa/'
+
 class pausa():
 	def __init__(self, juego) -> None:
 		self.juego = juego
 		# Crear grupo que contendrá sus imágenes
 		self.grupo = Group()
 		# Añadir el fondo para que lo dibuje
-		self.grupo.add(imagen(path+'images/pausa/fondo.jpg', 0, 0, 1280, 720))
+		self.grupo.add(imagen(path_pausa+'images/fondo.jpg', 0, 0, 1280, 720))
 		# Añadir botones
-		self.botones = {'quit':buton(path+'images/pausa/exit.png', 400, 400, 300, 150),
-						'play':buton(path+'images/pausa/resume.png', 400, 200, 300, 150),}
+		self.botones = {'quit':buton(path_pausa+'images/exit.png', 400, 400, 300, 150),
+						'play':buton(path_pausa+'images/resume.png', 400, 200, 300, 150),}
 		# Añadir los sprites de los botones
 		for boton in self.botones: self.grupo.add(self.botones[boton])
 	
