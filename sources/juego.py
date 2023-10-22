@@ -1,5 +1,7 @@
 from sources.escenas import *
 
+path_juego = path + 'game/'
+
 # Definir el juego
 class juego():
 	def __init__(self, juego) -> None:
@@ -7,9 +9,9 @@ class juego():
 		# Crear grupo que contendrá sus imágenes
 		self.grupo = Group()
 		# Añadir el fondo para que lo dibuje
-		self.grupo.add(imagen(path+'images/game/fondo.jpg', 0, 0, 1280, 720))
+		self.grupo.add(imagen(path_juego+'images/backgrounds/fondo_cueva.jpg', 0, 0, 1280, 720))
 		# Añadir botón de pausa
-		self.boton_pausa = buton(path+'images/game/pause.png', 1150, 10, 100, 60)
+		self.boton_pausa = buton(path_juego+'images/interfaz/pause.png', 1150, 10, 100, 60)
 		self.grupo.add(self.boton_pausa)
 
 	# Controlar lo que pasa en la partida
