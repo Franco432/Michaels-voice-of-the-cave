@@ -1,11 +1,12 @@
 from sources.escenas import *
 
-path_menu = path + 'menu/'
-
 # Definir el menú de inicio
 class menu_inicio():
 	def __init__(self, juego) -> None:
 		self.juego = juego
+		# Poner música cuando se ejecuta el juego
+		music.set_volume(0.25)
+		Thread(target=musicar, args=(path_menu+'music/musica_inicio.ogg', 1.5)).start()
 		# Crear grupo que contendrá sus imágenes
 		self.grupo = Group()
 		# Añadir el fondo para que lo dibuje
@@ -65,4 +66,7 @@ class menu_inicio():
 					# Si apreto el botón de salir, apagar el juego
 					case 'quit': self.juego['ejecutando'] = False
 					# Poner el juego
-					case 'play': self.juego['escena_actual'] = 'juego'
+					case 'play':
+						self.juego['escena_actual'] = 'juego'
+						# Poner música de la cueva cuando se juega la partida
+						Thread(target=musicar, args=(path_juego+'music/musica_partida.ogg',)).start()

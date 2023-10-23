@@ -1,7 +1,5 @@
 from sources.escenas import *
 
-path_juego = path + 'game/'
-
 # Definir el juego
 class juego():
 	def __init__(self, juego) -> None:
@@ -44,3 +42,5 @@ class juego():
 				# Poner la pausa si apretó el botón de pausa
 				if self.boton_pausa.presionado:
 					self.juego['escena_actual'] = 'pausa'
+					# Poner música de la cueva cuando se juega la partida
+					Thread(target=musicar, args=(path_pausa+'music/musica_pausa.ogg',1.5)).start()

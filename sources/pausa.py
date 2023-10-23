@@ -1,7 +1,5 @@
 from sources.escenas import *
 
-path_pausa = path + 'pausa/'
-
 class pausa():
 	def __init__(self, juego) -> None:
 		self.juego = juego
@@ -60,7 +58,11 @@ class pausa():
 					# Si apreto el botón de salir, apagar el juego
 					case 'quit':
 						self.juego['escena_actual'] = 'menu'
+						# Poner música de la cueva cuando se juega la partida
+						Thread(target=musicar, args=(path_menu+'music/musica_inicio.ogg',1.5)).start()
 						Thread(target=self.juego['escenas']['juego'].__init__(self.juego)).start()
 					# Poner el juego
 					case 'play':
 						self.juego['escena_actual'] = 'juego'
+						# Poner música de la cueva cuando se juega la partida
+						Thread(target=musicar, args=(path_juego+'music/musica_partida.ogg',)).start()
