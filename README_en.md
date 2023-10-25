@@ -5,7 +5,8 @@ This is a little game that occurs in a cave, where you have to fight with monste
 
 It was an entry for the https://itch.io/jam/untitled-game-jam-81, and you can play the original jam version in https://franco-c.itch.io/michaels-task.
 
-I made this repository to rewrite it and improve it, because it wasn't a good game when I submitted it to the jam.
+It's a game that's all written in python using the pygame library.
+I made this repository to rewrite it and improve it, because it wasn't a good game when I submitted it to the game jam.
 
 ### Screnshots of the original version
 This screenshots show the original gameplay, and the final game is not supposed to be very different to it
@@ -17,17 +18,17 @@ We welcome and appreciate all contributions. Here's how to contribute:
 
 ### Bug Reports
 
-- Ensure the bug was not already reported by searching on GitHub under Issues.
-- If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a title and clear description, as much relevant information as possible, and a sample case demonstrating the expected behavior that is not occurring.
+- Ensure the bug was not already reported by searching it on `Issues`.
+- If you're unable to find an open issue addressing the problem, open a new one. Be sure to include a title and clear description, as much relevant information as possible, and a sample case demonstrating that the expected behavior is not occurring.
 
 ### Feature Requests
+
 - First, read if your change is already in a Project roadmap. 
-- If it's not there, suggest your change in the Feature requests section of the the most suitable Project roadmap, or if there isn't a suitable project, create one. and discuss it with others.
-- If you can and the repository owners agree with it, start working on it.
+- If it's not there, suggest your change in the Feature requests section of the the most suitable Project roadmap, or if there isn't a suitable project, create one!
+- If you can, and the repository owners agree with it, start working on your change!
 
 ### Pull Requests
 
-- Fork the repository.
 - Create a new branch for each feature or improvement.
 - Send a pull request from each feature branch to the `main` branch.
 
