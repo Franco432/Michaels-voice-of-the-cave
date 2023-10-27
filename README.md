@@ -43,10 +43,10 @@ It is very important to separate new features or improvements into separate feat
 - You can combine Eanglish and Spanish.
 
 ### Git Commit Messages
-- Reference wich issue or feature is it working on.
+- Reference wich issue or feature are you working on.
 
 ## Licence
 You can use some parts of the code to develop your own projects, but you have to say who's the creator and give a link to this repository.
-You also can't use the images of the game in your own projects.
+You can't use the images of the game in your own projects.
 
-This repository is under the BSL 1.0
+This repository is under the BSL 1.0 licence.

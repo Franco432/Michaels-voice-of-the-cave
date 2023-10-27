@@ -33,21 +33,20 @@ Bienvenimos y apreciamos toda contribución. Aquí está cómo contribuir:
 ### Pull Requests
 
 - Crea una nueva rama para cada característica o mejora.
-- Envía un pull request de cada rama de característica
-- Send a pull request from each feature branch to the `main` branch.
+- Envía un pull request de cada rama de característica a la rama `main`
 
-It is very important to separate new features or improvements into separate feature branches, and to send a pull request for each branch. This allows us to review and pull in new features or improvements individually.
+Es muy importante separar las nuevas características o mejoras en ramas separadas, y enviar un pull request para cada rama. Esto nos permite revisar y añadir nuevas características o mejoras de forma individual.
 
-### Styleguides
-- Try to document almost of the lines you add.
-- Define functions and variables with descriptible names, such as `draw_function`
-- You can combine Eanglish and Spanish.
+### Guías de Estilo
+- Intenta documentar casi todas las líneas que añades
+- Define funciones y variables con nombres descriptivos, como `funcion_dibujo`
+- Puedes combinar inglés y español
 
-### Git Commit Messages
-- Reference wich issue or feature is it working on.
+### Mensajes de Git Commit
+- Referencia en cuál error o característica estás trabajando.
 
-## Licence
-You can use some parts of the code to develop your own projects, but you have to say who's the creator and give a link to this repository.
-You also can't use the images of the game in your own projects.
+## Licencia
+Puedes usar algunas partes del juego para desarrollar tus propios proyectos, pero tienes que decir quién es el creador y dar un link a este repositorio.
+Tú no puedes usar las imágenes del juego en tus propios proyectos.
 
-This repository is under the BSL 1.0
+Este repositorio está bajo la licencia BSL 1.0
