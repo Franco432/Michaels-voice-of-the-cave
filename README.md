@@ -1,4 +1,4 @@
-[<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spain_flag_icon.svg/1200px-Spain_flag_icon.svg.png" alt="english" width="50"/>](https://github.com/Franco432/Michaels-voice-of-the-cave/blob/Readme-en-espa%C3%B1ol/README_es.md)
+[<img align="right" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Spain_flag_icon.svg/1200px-Spain_flag_icon.svg.png" alt="english" width="50"/>](https://github.com/Franco432/Michaels-voice-of-the-cave/blob/main/README_es.md)
 [<img align="right" src="https://assets.stickpng.com/images/580b585b2edbce24c47b2836.png" alt="inglés" width="47"/>](https://github.com/Franco432/Michaels-voice-of-the-cave/blob/main/README.md)
 
 # Michael's voice of the cave
